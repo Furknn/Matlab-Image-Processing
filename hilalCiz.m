@@ -1,6 +1,5 @@
 function Hilaller=hilalCiz(resimDizisi,boyut,hilalSayisi,yon)
 if ~exist('yon','var')
-     %third parameter does not exist, so default it to something
      yon = -1;
 end
 
